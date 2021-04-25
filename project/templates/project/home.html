@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Login Page</title>
+    <!--This came from getbootstrap.com-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+
+
+</head>
+<body class = "body">
+  <div class="innerBody">
+    <h1 class = "header">Welcome to Payroll Management</h1>
+    <h3 class = "option">Please select an option</h3>
+    <button class = "myBtn btn btn btn-info" type="button" name="button" onclick="window.location.href='employee';">List Employees</button>
+    <button class = "myBtn btn btn-light" type="button" name="button" onclick="window.location.href='useremployeequery';">Choose Employees</button>
+    <button class = "myBtn btn btn-info" type="button" name="button" onclick="window.location.href='timeform';">Timecard Entry</button>
+    <button class = "myBtn btn btn-light" type="button" name="button" onclick="window.location.href='timesearch';">View Timecards</button>
+    <button class = "myBtn btn btn-info" type="button" name="button" onclick="window.location.href='paysearch';">View Paychecks</button>
+    <button class = "myBtn btn btn-light" type="button" name="button" onclick="window.location.href='vacationform';">Vacation Request</button>
+    <button class = "myBtn btn btn-info" type="button" name="button" onclick="window.location.href='vacationsearch';">View Vacation Requests</button>
+  </div>
+
+
+    <!--
+<div class="container">
+    <center><h2>This is an example of an html form, taken from bootstrap documentation</h2></center>
+    <form>
+        <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+        <label for="formFile" class="form-label">Default file input example</label>
+        <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+-->
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+.body {
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.header{
+  display:inline-block;
+  color: #ebebeb;
+  font-family: "Merriweather", serif;
+  margin-top: 50px;
+}
+.innerBody{
+  margin: 100px auto 0 auto;
+  text-align: center;
+  width: 1500px;
+  background-color: #389393;
+  height: 1200px;
+
+}
+.listing {
+  color: #ebebeb;
+  text-align: center;
+  display: block;
+  font-family: "PT sans", sans-serif;
+  font-size: 1.2rem;
+}
+.option{
+  color: #ebebeb;
+  font-family: "Merriweather", serif;
+
+}
+.myBtn{
+  display:block;
+  margin: 10px auto 10px auto;
+  font-size: 3rem;
+}
+.submit {
+  display: block;
+  margin: 0 auto;
+}
