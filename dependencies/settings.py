@@ -71,7 +71,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'project', # name of db you are connecting to 
         'USER': 'root',
-        'PASSWORD': "Jeff1sg@y", # your db password
+        'PASSWORD': "password", # your db password
         'HOST': "localhost",
         'PORT': "3306",
         'STORAGE_ENGINE': 'INNODB', # Eperiment to fix naming problem
